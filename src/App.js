@@ -12,7 +12,7 @@ class App extends Component {
 				<CatComponent />
 
 				<EinsteinQuoteComponent />
-				
+
 				<MouseComponent />
 			</div>
 
