@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import CatComponent from './CatComponent.js';
-import { EinsteinQuoteComponent } from './EinsteinQuoteComponent';
+import CatComponent from './CatComponent';
+import EinsteinQuoteComponent from './EinsteinQuoteComponent';
 import MouseComponent from './MouseComponent';
 
 class App extends Component {
@@ -9,6 +9,10 @@ class App extends Component {
 		return (
 			<div className="App">
 			</div>
+
+			<CatComponent />
+			<EinsteinQuoteComponent />
+			<MouseComponent />
 		);
 	}
 }
